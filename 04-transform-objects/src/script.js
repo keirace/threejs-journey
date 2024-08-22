@@ -35,24 +35,26 @@ const cube3 = new THREE.Mesh(
 cube3.position.x = 2;
 group.add(cube3);
 
-// Position
-// mesh.position.x = 0.7
-// mesh.position.y = -0.6
-// mesh.position.y = 1
+// Position // Vector3
+// cube3.position.x = 0.7
+// cube3.position.y = -0.6
+// cube3.position.y = 1
+// cube3.position.set(0.7, -0.6, 1);
 
-// mesh.position.set(0.7, -0.6, 1);
-// console.log(mesh.position.length());
+console.log(cube3.position.length()); // length from (0, 0, 0) to (x, y, z)
+// console.log(cube3.position.normalize()); // same direction but length = 1
+// console.log(cube3.position.length());
 
-// Scale
-// mesh.scale.x = 2
-// mesh.scale.y = 0.5
-// mesh.scale.z = 0.5
-// mesh.scale.set(2, 0.5, 0.5);
+// Scale // Vector3
+// cube3.scale.x = 2
+// cube3.scale.y = 0.5
+// cube3.scale.z = 0.5
+// cube3.scale.set(2, 0.5, 0.5);
 
-// Rotation
-// mesh.rotation.reorder('YXZ'); // fix gimbal lock
-// mesh.rotation.x = Math.PI / 4
-// mesh.rotation.y = Math.PI * 0.25
+// Rotation // Euler angles
+// cube3.rotation.reorder('YXZ'); // fix gimbal lock
+// cube3.rotation.x = Math.PI / 4
+// cube3.rotation.y = Math.PI * 0.25
 
 // Axes helper
 const axesHelper = new THREE.AxesHelper(4);
@@ -72,8 +74,8 @@ const sizes = {
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height)
 camera.position.z = 3
 scene.add(camera)
-
-camera.lookAt(new THREE.Vector3(0, 0, 0));
+console.log(cube3.position.distanceTo(camera.position));
+// camera.lookAt(cube3.position);
 
 /**
  * Renderer
