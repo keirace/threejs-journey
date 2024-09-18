@@ -5,7 +5,7 @@ export default function Experience() {
 
 	return (
 		<>
-			<Environment preset="city" files={"./blender-2k.hdr"} intensity={5} background />
+			<Environment files={"./blender-2k.hdr"} intensity={5} background />
 
 			<color attach="background" args={["#241a1a"]} />
 
