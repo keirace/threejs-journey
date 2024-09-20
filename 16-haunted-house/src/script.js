@@ -104,7 +104,7 @@ const floor = new THREE.Mesh(
 		metalnessMap: floorTextures.ARM,
 		displacementMap: floorTextures.displacement,
 		displacementScale: 0.3,
-		displacementBias: -0.2,
+		displacementBias: 0.02,
 	})
 );
 floor.rotation.x = -Math.PI / 2;
