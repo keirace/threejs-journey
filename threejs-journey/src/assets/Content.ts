@@ -85,8 +85,8 @@ export const content: Content[] = [
 			{ lesson: 60, title: "3D Text", url: "https://3d-text-with-r3f-bice.vercel.app/" },
 			{ lesson: 61, title: "Portal Scene", url: "https://portal-scene-with-r3f-pi.vercel.app/" },
 			{ lesson: 62, title: "Mouse Events", url: "https://mouse-events-with-r3f-alpha.vercel.app/" },
-			{ lesson: 63, title: "Post Processing", url: "" },
-			{ lesson: 64, title: "Fun and Simple Portfolio", url: "" },
+			{ lesson: 63, title: "Post Processing", url: "https://post-processing-with-r3f-ivory.vercel.app/" },
+			{ lesson: 64, title: "Fun and Simple Portfolio", url: "https://fun-and-simple-portfolio-with-r3f-omega.vercel.app/" },
 		],
 	},
 ];
