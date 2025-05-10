@@ -68,10 +68,7 @@ export const content: Content[] = [
 	{
 		title: "Portal Scene",
 		lessons: [
-			{ lesson: 49, title: "Creating a Scene in Blender", url: "" },
-			{ lesson: 50, title: "Baking and Exporting the Scene", url: "" },
-			{ lesson: 51, title: "Importing and Optimizing the Scene", url: "" },
-			{ lesson: 52, title: "Adding Details to the Scene", url: "" },
+			{ lesson: 52, title: "Adding Details to the Scene", url: "https://importing-and-optimizing-the-scene-plum.vercel.app/" },
 		],
 	},
 	{
@@ -87,6 +84,7 @@ export const content: Content[] = [
 			{ lesson: 62, title: "Mouse Events", url: "https://mouse-events-with-r3f-alpha.vercel.app/" },
 			{ lesson: 63, title: "Post Processing", url: "https://post-processing-with-r3f-ivory.vercel.app/" },
 			{ lesson: 64, title: "Fun and Simple Portfolio", url: "https://fun-and-simple-portfolio-with-r3f-omega.vercel.app/" },
+			{ lesson: 66, title: "Create a Game", url: "https://create-a-game-with-r3f-two.vercel.app/" },
 		],
 	},
 ];
