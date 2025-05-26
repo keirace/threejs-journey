@@ -54,6 +54,7 @@ export const content: Content[] = [
 			{ lesson: 27, title: "Shader", url: "" },
 			{ lesson: 28, title: "Shader Patterns", url: "" },
 			{ lesson: 29, title: "Raging Sea", url: "https://raging-sea-pink.vercel.app/" },
+			{ lesson: 32, title: "Coffee Smoke", url: "https://coffee-smoke-shader-nine.vercel.app/" }
 		],
 	},
 	{
